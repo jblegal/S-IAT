@@ -2,14 +2,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     var API = new APIConstructor();
 
 	return iatExtension({
-    category : { 
+ category1 : { 
 		    name : 'Moi', //Will appear in the data.
 		    title : {
 		      media : {word : 'Moi'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
-		    media : [ //Stimuli content as PIP's media objects
+		    stimulusMedia : [ //Stimuli content as PIP's media objects
     		    	{word : 'Moi'}, 
     			{word : 'Mien'}, 
     			{word : 'Mon'}, 
@@ -28,7 +28,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
-			media : [ //Stimuli
+			stimulusMedia : [ //Stimuli
 				{word: 'Fort'},
 				{word: 'Puissant'},
 				{word: 'Robuste'},
@@ -46,7 +46,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
-			media : [ //Stimuli
+			stimulusMedia : [ //Stimuli
 				{word: 'Sensible'},
 				{word: 'Romantique'},
 				{word: 'Empathique'},
