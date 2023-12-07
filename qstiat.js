@@ -20,18 +20,18 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Define the category.
 			category :  
 			{
-				name : ‘Self’, //Category name to be used for feedback and logging.
+				name : 'Self', //Category name to be used for feedback and logging.
 				title : {
-					media : {word : ‘Self’}, //Name of the category presented in the task.
+					media : {word : 'Self'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: ‘Moi’},
-					{word: ‘Mien’},
-					{word: ‘Je’},
-					{word: ‘Mon’},
-					{word: ‘Moi meme'},
+					{word: 'Moi'},
+					{word: 'Mien'},
+					{word: 'Je'},
+					{word: 'Mon'},
+					{word: 'Moi meme'},
 					{word: 'Shanice'}
 				],
 				//Can change color and size of the targets here.
@@ -39,18 +39,18 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},	
 			attribute1 : 
 			{
-				name : ‘Feminin’, //Attribute name to be used for feedback and logging
+				name : 'Feminin', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : ‘Feminin’}, //Name of the category presented in the task.
+					media : {word : 'Feminin'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: ‘Sensible'},
-					{word: ‘Romatique'},
-					{word: ‘Empathique’},
-					{word: ‘Affectueux’},
-					{word: ‘Sentimental},
+					{word: 'Sensible'},
+					{word: 'Romatique'},
+					{word: 'Empathique’},
+					{word: 'Affectueux’},
+					{word: 'Sentimental},
 					{word: 'Grief'}
 				], 
 				//Can change color and size of the targets here.
@@ -58,19 +58,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute2 : 
 			{
-				name : ‘Masculin’, //Attribute name to be used for feedback and logging
+				name : 'Masculin', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : ‘Masculin’}, //Name of the category presented in the task.
+					media : {word : 'Masculin'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: ‘Fort’},
-					{word: ‘Puissant’},
-					{word: ‘Robuste’},
-					{word: ‘Dynamique’},
-					{word: ‘Indépendant’},
-					{word: 'Love'}
+					{word: 'Fort'},
+					{word: 'Puissant'},
+					{word: 'Robuste'},
+					{word: 'Dynamique'},
+					{word: 'Indépendant'},
+					{word: 'Love'},
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
