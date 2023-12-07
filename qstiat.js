@@ -48,9 +48,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				media : [ //Stimuli
 					{word: 'Sensible'},
 					{word: 'Romatique'},
-					{word: 'Empathique’},
-					{word: 'Affectueux’},
-					{word: 'Sentimental},
+					{word: 'Empathique'},
+					{word: 'Affectueux'},
+					{word: 'Sentimental'},
 					{word: 'Grief'}
 				], 
 				//Can change color and size of the targets here.
