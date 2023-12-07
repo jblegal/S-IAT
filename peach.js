@@ -13,8 +13,8 @@ define(['pipAPI', 'https://jblegal.github.io/S-IAT/qstiat.js'], function(APICons
 				media : [ //Stimuli
 					{word: 'Moi'},
 					{word: 'Mien'},
-					{word: 'Mon'},
 					{word: 'Je'},
+					{word: 'Mon'},
 					{word: 'Moi meme'},
 					{word: 'Shanice'}
 				],
