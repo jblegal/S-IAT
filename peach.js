@@ -4,9 +4,9 @@ define(['pipAPI', 'https://jblegal.github.io/S-IAT/qstiat.js'], function(APICons
 		  return stiatExtension({
 		 category :  
 			{
-				name : 'Black People', //Category name to be used for feedback and logging.
+				name : 'Self', //Category name to be used for feedback and logging.
 				title : {
-					media : {word : 'Black People'}, //Name of the category presented in the task.
+					media : {word : 'Self'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
@@ -23,9 +23,9 @@ define(['pipAPI', 'https://jblegal.github.io/S-IAT/qstiat.js'], function(APICons
 			},	
 			attribute1 : 
 			{
-				name : 'Féminin', //Attribute name to be used for feedback and logging
+				name : 'Feminin', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Unpleasant'}, //Name of the category presented in the task.
+					media : {word : 'Feminin'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
@@ -44,7 +44,7 @@ define(['pipAPI', 'https://jblegal.github.io/S-IAT/qstiat.js'], function(APICons
 			{
 				name : 'Masculin', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Pleasant'}, //Name of the category presented in the task.
+					media : {word : 'Masculin'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
