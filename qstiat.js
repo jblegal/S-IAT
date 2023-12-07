@@ -70,7 +70,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					{word: 'Robuste'},
 					{word: 'Dynamique'},
 					{word: 'Indépendant'},
-					{word: 'Love'},
+					{word: 'Love'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
