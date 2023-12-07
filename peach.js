@@ -1,56 +1,67 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension) {
-    var API = new APIConstructor();
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
+	
+	var API = new APIConstructor();
+		  return stiatExtension({
+		  category : { 
+		    name : 'Black people', //Will appear in the data.
+		    title : {
+		      media : {word : 'Black people'}, //Name of the category presented in the task.
+		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+		      height : 7 //Used to position the "Or" in the combined block.
+		    }, 
+		    media : [ //Stimuli content as PIP's media objects
+    		    	{image : 'black1.jpg'}, 
+    			{image : 'black2.jpg'}, 
+    			{image : 'black3.jpg'}, 
+    			{image : 'black4.jpg'}, 
+    			{image : 'black5.jpg'}, 
+    			{image : 'black6.jpg'}
+		    ], 
+		    //Stimulus css (style)
+		    css : {color:'#31b404','font-size':'3em'}
+		  },	
 
-    return iatExtension({
-        category1: {
-            name: 'Moi',
-            title: {
-                media: { word: 'Moi' },
-                css: { color: '#31b404', 'font-size': '2em' },
-                height: 7
-            },
-            stimulusMedia: [
-                { word: 'Moi' },
-                { word: 'Mien' },
-                { word: 'Mon' },
-                { word: 'Je' },
-                { word: 'Moi-même' },
-            ],
-            css: { color: '#31b404', 'font-size': '3em' }
-        },
+  		attribute1 : 
+			{
+			name : 'Unpleasant', //Attribute label
+			title : {
+				media : {word : 'Negative'}, //Name of the category presented in the task.
+				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+				height : 7 //Used to position the "Or" in the combined block.
+			}, 
+			media : [ //Stimuli
+				{word: 'Bomb'},
+				{word: 'Abuse'},
+				{word: 'Sadness'},
+				{word: 'Pain'},
+				{word: 'Poison'},
+				{word: 'Grief'}
+			], 
+			//Can change color and size of the targets here.
+			css : {color:'#31b404','font-size':'3em'}
+			},
+		attribute2 : 
+			{
+			name : 'Pleasant', //Attribute label
+			title : {
+				media : {word : 'Positive'}, //Name of the category presented in the task.
+				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+				height : 7 //Used to position the "Or" in the combined block.
+			}, 
+			media : [ //Stimuli
+				{word: 'Paradise'},
+				{word: 'Pleasure'},
+				{word: 'Cheer'},
+				{word: 'Wonderful'},
+				{word: 'Splendid'},
+				{word: 'Love'}
+			], 
+			//Can change color and size of the targets here.
+			css : {color:'#31b404','font-size':'3em'}
+			},
 
-        attribute1: {
-            name: 'Masculin',
-            title: {
-                media: { word: 'Masculin' },
-                css: { color: '#31b404', 'font-size': '2em' },
-                height: 7
-            },
-            stimulusMedia: [
-                { word: 'Fort' },
-                { word: 'Puissant' },
-                { word: 'Robuste' },
-                { word: 'Dynamique' },
-                { word: 'Independant' },
-            ],
-            css: { color: '#31b404', 'font-size': '3em' }
-        },
-
-        attribute2: {
-            name: 'Féminin',
-            title: {
-                media: { word: 'Féminin' },
-                css: { color: '#31b404', 'font-size': '2em' },
-                height: 7
-            },
-            stimulusMedia: [
-                { word: 'Sensible' },
-                { word: 'Romantique' },
-                { word: 'Empathique' },
-                { word: 'Affectueux' },
-                { word: 'Sentimental' },
-            ],
-            css: { color: '#31b404', 'font-size': '3em' }
-        }
-    });
-});
+  base_url : {//Where are your images at?
+    image : 'https://baranan.github.io/minno-tasks/images/'
+  }}
+  );
+  });
