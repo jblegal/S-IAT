@@ -141,8 +141,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			fontColor : '#000000', //The color of messages and key reminders. 
 			
 			//Text and style for key instructions displayed about the category labels.
-			leftKeyText : ‘Appuyez sur "E" pour’, 
-			rightKeyText : ‘Appuyez sur "I" pour’, 
+			leftKeyText : 'Appuyez sur "E" pour', 
+			rightKeyText : 'Appuyez sur "I" pour', 
 			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
 			orText : 'or', 
@@ -150,10 +150,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			//Will appear at the bottom of the screen during trials.
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			‘Si vous faites une erreur, un <font color="#ff0000"><b>X</b></font> rouge apparaitra. ' +
-			‘Appuyez sur l’autre touche pour continuer.<p/>',
+			'Si vous faites une erreur, un <font color="#ff0000"><b>X</b></font> rouge apparaitra. ' +
+			'Appuyez sur l’autre touche pour continuer.<p/>',
 			
-			finalText: ‘Vous avez terminé<br/><br/>Appuyez sur Espace pour continuer.', 
+			finalText: 'Vous avez terminé<br/><br/>Appuyez sur Espace pour continuer.', 
 
 			//These are templates for the instructions in the task. 
 			//If you want more specific instructions for different blocks, 
@@ -164,13 +164,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instTemplatePractice : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				‘Placez un doigt gauche sur la touche <b>E</b> pour les items qui appartiennent a la catégorie ' + 
+				'Placez un doigt gauche sur la touche <b>E</b> pour les items qui appartiennent a la catégorie ' + 
 				'<font color="#31b404">attribute1</font>.<br/>' + 
 				'Placez un doigt droit sur la touche <b>I</b> pour les items qui appartiennent à la catégorie ' + 
 				'<font color="#31b404">attribute2</font>.<br/>' + 
-				‘Les items apparaitront un a la fois .<br/><br/>' + 
-				‘Si vous faites une erreur, un <font color="#ff0000"><b>X</b></font> rouge apparaitra. ' + 
-				‘Appuyez sur l’autre touche pour continuer.<br/><br/>' + 
+				'Les items apparaitront un a la fois .<br/><br/>' + 
+				'Si vous faites une erreur, un <font color="#ff0000"><b>X</b></font> rouge apparaitra. ' + 
+				'Appuyez sur l’autre touche pour continuer.<br/><br/>' + 
 				'<p align="center">Appuyez sur la <b>barre espace</b> quand vous serez prêt a commencer.</font></p></div>', 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
@@ -179,17 +179,17 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#31b404">attribute1</font>.<br/>' + 
 				'Placez un doigt droit sur la touche <b>I</b> pour les items qui appartiennent a la categorie ' + 
 				'<font color="#31b404">attribute2</font> ' +
-				‘et pour les items qui appartiennent a la catégorie <font color="#31b404">thecategory</font>.<br/>' + 
-				‘Les items apparaitront un a la fois.<br/><br/>' + 
-				‘Si vous faites une erreur, un <font color="#ff0000"><b>X</b></font> rouge apparaitra. ' + 
-				‘Appuyez sur l’autre touche pour continuer.<br/><br/>' + 
+				'et pour les items qui appartiennent a la catégorie <font color="#31b404">thecategory</font>.<br/>' + 
+				'Les items apparaitront un a la fois.<br/><br/>' + 
+				'Si vous faites une erreur, un <font color="#ff0000"><b>X</b></font> rouge apparaitra. ' + 
+				'Appuyez sur l’autre touche pour continuer.<br/><br/>' + 
 				'<p align="center">Appuyez sur la <b>barre espace bar</b> quand vous serez prêt a commencer.</font></p></div>', 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Placez un doigt gauche sur la touche <b>E</b> pour les items qui appartiennent a la categorie ' + 
 				'<font color="#31b404">attribute1</font> ' +
-				‘et pour les items qui appartiennent a la categorie <font color="#31b404">thecategory</font>.<br/>' + 
+				'et pour les items qui appartiennent a la categorie <font color="#31b404">thecategory</font>.<br/>' + 
 				'Placez un doigt droit sur la touche <b>I</b> pour les items qui appartiennent a la categorie ' + 
 				'<font color="#31b404">attribute2</font>.<br/>' + 
 				'Les items apparaitront un a la fois.<br/><br/>' + 
